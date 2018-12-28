@@ -155,6 +155,12 @@ if cwd == '/app' or cwd[:4] == '/tmp':
 	SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 	
 	
+	# Just for heroku
+	ALLOWED_HOSTS = ['hongquan-learning-log.herokuapp.com']
+	
+	DEBUG = False
+	
+	
 	
 	
 	# support all the host headers
